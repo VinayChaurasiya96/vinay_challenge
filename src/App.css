@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.navHead h2 {
+  color: white;
+}
+
+.navHead {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+}
+input{
+  display:block;
+}
+
+.product_card {
+  width: 185px;
+  height: auto;
+  border: 1px solid black;
+}
+.product_main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  width: 70%;
+}
+.product_image{
+  width: 100%;
+  height: 135px;
+}
+.product-center {
+  /* width: 70%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  flex-direction: row-reverse;
+}
